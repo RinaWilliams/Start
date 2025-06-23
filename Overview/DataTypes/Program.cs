@@ -12,6 +12,11 @@ bool tf = default;
 Console.WriteLine($"{a}, {b}, {tf}, {c}, {f}, {d}");
 
 // TODO: implicit type conversion
+Console.WriteLine($"{c + a}");
+Console.WriteLine($"{(char)(c + a)}");
+
+Console.WriteLine($"{f + a}");
+Console.WriteLine($"{f + c}");
 
 
 // TODO: Create an instance of a struct (which is a value type)
